@@ -1,0 +1,29 @@
+Vim                                 - vscodevim
+Ayu                                 - teabyii
+Material Icon Theme                 - Philipp Kief
+
+C/C++                               - Microsoft
+C/C++ Extension Pack                - Microsoft
+C/C++ Themes                        - Microsoft
+Better C++ Syntax                   - Jeff Hykin
+
+C#                                  - Microsoft
+
+Doxygen Documentation               - Christoph Schlosser
+CMake                               - twxs
+CMake Tools                         - Microsoft
+
+Python                              - Microsoft
+Pylance                             - Microsoft
+Jupyter                             - Microsoft
+Jupyter Keymap                      - Microsoft
+Jupyter Notebook Renderers          - Microsoft
+
+LTeX                                - julien Valentin
+
+Markdown Preview Enhanced           - Yiyi Wang
+Markdown Preview Mermaid Support    - Matt Bierner
+Mermaid Markdown Syntax Highlighting- Matt Bierner
+Markdownlint                        - David Anson
+
+Babel ES6/ES7                       - dzannotti

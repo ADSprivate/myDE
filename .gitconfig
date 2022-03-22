@@ -1,0 +1,31 @@
+[core]
+	autocrlf = true
+	editor = vim
+[init]
+	defaultBranch = main
+[color]
+	ui = true
+[alias]
+    #tree = log --graph --decorate --pretty=oneline --abbrev-commit
+	# decorated graph view of one liner summarized commits from all branches. (inspired by git-extras)
+    tree = log --all --graph --decorate --oneline --simplify-by-decoration
+    
+    userinfo = !git config user.name && git config user.email && :
+
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	last = log -1 HEAD
+    l5 = log -5
+    l10 = log -10
+    amend = !"git commit --amend -C HEAD"
+
+    # show git aliases
+	aliases = config --get-regexp alias
+
+	# list contributor stats for this repo
+	contributors = !git shortlog -n -s --no-merges $@ | cat - && echo && echo total $(git rev-list --count HEAD)
+[log]
+    date = short
+

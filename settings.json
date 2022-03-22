@@ -1,0 +1,55 @@
+{
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "security.workspace.trust.banner": "always",
+    "explorer.confirmDelete": false,
+   
+    "editor.codeLens": true,
+
+    "editor.codeActionsOnSave": {
+        "source.organiseImports": true
+    },
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "vim.smartRelativeLine": false,
+    "vim.useSystemClipboard": false,
+    "vim.hlsearch": true,
+    "vim.vimrc.enable": true,
+
+
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file"
+    },
+    "python.formatting.provider": "autopep8",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.completeFunctionParens": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111",
+        "--variable-rgx=[a-z0-9_]{1,30}$"
+    ],
+    "python.experiments.enabled": false,
+
+    "[C#]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeLens": false
+    },
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "markdown-preview-enhanced.previewTheme": "vue.css"
+}    "python.experiments.enabled": false,
+
+    "[C#]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnSaveMode": "file",
+        "editor.codeLens": false
+    }
+}
